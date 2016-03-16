@@ -1,0 +1,31 @@
+{
+  "name": "bike_index",
+  "version": "1.0.0",
+  "description": "Bike search tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MBAllely/bike_index.git"
+  },
+  "author": "Marika Allely and Jon Nardine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MBAllely/bike_index/issues"
+  },
+  "homepage": "https://github.com/MBAllely/bike_index#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "browserify": "^13.0.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

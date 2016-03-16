@@ -1,0 +1,22 @@
+{
+  "name": "bike",
+  "description": "bike app using bikeindex api",
+  "main": "index.js",
+  "authors": [
+    "Marika Allely and Jon Nardine"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "moment": "^2.12.0"
+  }
+}
