@@ -10,3 +10,7 @@ exports.compareColor = function(searchColor, stolenBikes) {
   });
   return matchedBikes;
 };
+
+//compare models
+//compare blue vs red, etc
+//display stolen date (date converter function from UNIX timestamp)
