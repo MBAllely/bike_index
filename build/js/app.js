@@ -35,8 +35,9 @@ $(document).ready(function() {
     var city = $('#location').val();
     var search_color = $('#input_color').val();
     var results_total = $('#number_of_results').val();
+    var search_radius = $('#search_radius').val();
     console.log("color" + search_color);
-    $.get('https://bikeindex.org:443/api/v2/bikes_search/stolen?page=1&per_page=' + results_total + '&proximity=' + city + '&proximity_square=100', function(response) {
+    $.get('https://bikeindex.org:443/api/v2/bikes_search/stolen?page=1&per_page=' + results_total + '&proximity=' + city + '&proximity_square=' + search_radius, function(response) {
 
       if (search_color.length > 0) {
         bikes = compareColor(search_color, response.bikes);
