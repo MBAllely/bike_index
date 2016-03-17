@@ -55,8 +55,12 @@ $(document).ready(function(){
   });
 });
 
-$(document).ready(function(){
+var populatetime = function() {
   $('#time').text(moment());
+};
+
+$(document).ready(function(){
+  setInterval(populatetime, 1000);
 });
 
 var apiKey = '2d7a6dd16947d5f5ab1a8bc26248335b';
