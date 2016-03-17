@@ -34,10 +34,14 @@ $(document).ready(function() {
       }
         bikes.forEach(function(elem, index) {
           var myDate = new Date(elem.date_stolen * 1000);
-          console.log(elem, index);
-          console.log("test");
-          document.body.innerHTML += ('<h3>Bike name: ' + elem.title + '<br> Serial Number: ' + elem.serial + '<br> Color: ' + elem.frame_colors[0] + " and " +  elem.frame_colors[1]) + '<br>Date stolen: ' + myDate + '</h3>';
+          $('#list').append('Bike name: ' + elem.title + '<br> Serial Number: ' + elem.serial + '<br> Color: ' + elem.frame_colors[0] + " and " +  elem.frame_colors[1] + '<br>Date stolen: ' + myDate + '<br>' + '<br>');
       });
+      //   bikes.forEach(function(elem, index) {
+      //     var myDate = new Date(elem.date_stolen * 1000);
+      //     console.log(elem, index);
+      //     console.log("test");
+      //     document.body.innerHTML += ('<h3>Bike name: ' + elem.title + '<br> Serial Number: ' + elem.serial + '<br> Color: ' + elem.frame_colors[0] + " and " +  elem.frame_colors[1]) + '<br>Date stolen: ' + myDate + '</h3>';
+      // });
     });
   });
 });
