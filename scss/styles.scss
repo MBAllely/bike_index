@@ -1,5 +1,6 @@
 $gray : #d3d3d3;
 $green : #75B975;
+$offBlack : #303030;
 
 .box {
   background: $gray;
@@ -22,7 +23,7 @@ $green : #75B975;
 }
 
 #list {
-    color: blue;
+    color: $offBlack;
     font-family: 'Big Caslon', 'Book Antiqua', 'Palatino Linotype', Georgia, serif;
     font-size: 24px;
     font-style: normal;

@@ -10,3 +10,16 @@ exports.compareColor = function(searchColor, stolenBikes) {
   });
   return matchedBikes;
 };
+// 
+// exports.returnByColor = function(searchColor, colorMatchedBikes, searchNumber) {
+//   var colorMatchedBikes = [];
+//
+//   colorMatchedBikes.forEach(bike) {
+//
+//   }
+//   if (searchColor.length > 0) {
+//     for(i = 0; i < searchNumber; i++) {
+//
+//     }
+//   }
+// };
