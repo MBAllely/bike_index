@@ -10,10 +10,3 @@ exports.compareColor = function(searchColor, stolenBikes) {
   });
   return matchedBikes;
 };
-
-exports.dateConverter = function(unixDate) {
-  var date = (unixDate * 1000);
-};
-//compare models
-//compare blue vs red, etc
-//display stolen date (date converter function from UNIX timestamp)
